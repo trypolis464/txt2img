@@ -25,7 +25,7 @@ parser.add_argument(
     "--filename",
     type=argparse.FileType("wb"),
     default="image.png",
-    help="Where to save the image",
+    help="What to save the image as",
 )
 
 if __name__ == "__main__":
